@@ -1,1 +1,7 @@
-
+1. Navigated to https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html and downloaded the OVA Wazuh v4.14.6 OVA
+Imported OVA through Virtual Box > File Import Appliance > selected the OVA > followed the steps to create
+spun up the VM > logged in with username/pw
+Following documentation I should be able to open a web browser and login to the web GUI
+Ran ifconfig on the Wazuh server > done 
+There doesn't seem to be a way to open a web browser from within the VM?
+Coming back to this later
