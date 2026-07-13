@@ -5,3 +5,10 @@ Following documentation I should be able to open a web browser and login to the 
 Ran ifconfig on the Wazuh server > done 
 There doesn't seem to be a way to open a web browser from within the VM?
 Coming back to this later
+Read through the documentation again
+Ended VM
+In Virtual Box > changed display settings
+Restarted VM
+Logged in with creds
+ran: ip a > done
+In LOCAL DESKTOP > connected to IP in browser > logged in w/ creds > works :)
