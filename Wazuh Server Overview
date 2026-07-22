@@ -12,3 +12,17 @@ Restarted VM
 Logged in with creds
 ran: ip a > done
 In LOCAL DESKTOP > connected to IP in browser > logged in w/ creds > works :)
+
+
+Update 7/21/26
+Loaded up VM for Wazuh server
+Logged in w/ creds
+ran ip a
+got IP address (NOT GONNA SHOW U) > states site cannot be reached
+Gave up on this > recreating the VM from scratch
+
+Imported the .OVA again
+signed in > changed network from NAT to Bridged Network adapter
+realized I needed to have the https:// in front of IP (face palm)
+navigated to https://(IP ADDRESS) > works
+logged in > g2g
