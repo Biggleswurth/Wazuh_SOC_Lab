@@ -1,0 +1,12 @@
+WINDOWS WAZUH AGENT INSTALLATION PROCESS
+Downloaded the Windows 11 ISO using my local desktop
+Added the .ISO to the VirtualBox
+- 8GB memory
+- 4 processors
+- 50GB reserved space
+Created new MS account and gmail account> saved info in pw manager
+Got the VM set up
+downloaded the Wazuh Agent via admin powershell
+- in Admin Dashboard on Local Workstation > deploy new agent > assigned Server Address > created agent name > ran the command in admin pwshell to install agent
+- in VM > ran pwshell command and followed prompts to install agent > set service to run on startup 
+  -Set-Service -Name WzuhSvc -StartupType Automatic
